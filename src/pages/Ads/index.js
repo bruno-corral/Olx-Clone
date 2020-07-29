@@ -133,7 +133,7 @@ const Page = () => {
                             {categories.map((i, k)=>
                                 <li 
                                 key={k} 
-                                className={cat==i.slug?'categoryItem active':'categoryItem'}
+                                className={cat===i.slug?'categoryItem active':'categoryItem'}
                                 onClick={()=>setCat(i.slug)}
                                 >
                                     <img src={i.img} alt="" />

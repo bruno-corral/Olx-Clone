@@ -11,7 +11,6 @@ import SignUp from './pages/SignUp';
 import AdPage from './pages/AdPage';
 import AddAd from './pages/AddAd';
 import Ads from './pages/Ads';
-import MyAccount from './pages/MyAccount';
 
 
 export default () => {
@@ -37,9 +36,6 @@ export default () => {
             </RaouteHandler>
             <RaouteHandler exact path="/ads">
                 <Ads />
-            </RaouteHandler>
-            <RaouteHandler exact path="/my-account">
-                <MyAccount />
             </RaouteHandler>
             <RaouteHandler>
                 <NotFound />
